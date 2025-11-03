@@ -1,0 +1,17 @@
+{
+  "name": "hellocucumber",
+  "version": "1.0.0",
+  "description": "Tutorial de Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
+  "keywords": [
+    "cucumber"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0"
+  }
+}

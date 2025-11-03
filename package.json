@@ -1,0 +1,20 @@
+{
+  "name": "requerimientos_software",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dakewer/requerimientos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dakewer/requerimientos/issues"
+  },
+  "homepage": "https://github.com/Dakewer/requerimientos#readme"
+}
