@@ -1,8 +1,3 @@
-# Característica: Crear Personaje
-# Como un usuario
-# Quiero poder crear un personaje siguiendo los pasos de configuración
-# Para poder jugar con él
-
 Feature: Crear Personaje
   Como usuario, quiero poder crear un personaje para empezar a jugar en el sistema.
 
@@ -25,4 +20,3 @@ Feature: Crear Personaje
     Given que el usuario selecciona una especie disponible
     When el usuario intenta finalizar sin introducir nombre
     Then el sistema debería mostrar un mensaje de error indicando que falta el nombre
-
