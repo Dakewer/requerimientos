@@ -1,0 +1,19 @@
+{
+  "name": "questifyme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:misiones": "cucumber-js features/misiones_personalizadas.feature",
+    "test:contrasena": "cucumber-js features/recuperacion_contrasena.feature",
+    "test:report": "cucumber-js --format html:reports/cucumber_report.html",
+    "test:json": "cucumber-js --format json:reports/cucumber_report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0"
+  }
+}
